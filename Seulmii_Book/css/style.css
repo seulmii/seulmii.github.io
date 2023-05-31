@@ -1,0 +1,163 @@
+#container section {
+    position: relative;
+    height: auto;
+}
+
+#container section img {
+    width: 100%;
+}
+
+.header-btn1, .header-btn2, .header-btn3, .header-btn4, .header-btn5 {position: absolute; top: 1.2vw;}
+.header-logo {position: absolute; top: 50%; transform: translateY(-50%); width: 6.82vw; left: 5.209vw;}
+.header-btn1 {width: 6.45vw; left: 60.1vw;}
+.header-btn2 {width: 1.92vw; left: 68.59vw;}
+.header-btn3 {width: 5.83vw; left: 72.86vw;}
+.header-btn4 {width: 6.82vw; left: 80.78vw;}
+.header-btn5 {width: 5.209vw; left: 89.58vw;}
+
+.back {
+    width: 100%;
+    height: 100%;
+}
+
+.title1 {
+    position: absolute;
+    width: 17.7vw;
+    top: 4.8vw;
+    left: 20vw;
+    transform: translateX(3vw);
+    transition: 2s;
+}
+.book2-1 {
+    position: absolute;
+    width: 69.79vw;
+    top: 55.5vw;
+    left: 31vw;
+    transform: translateY(3vw);
+    transition: 1s;
+}
+.book2-2 {
+    position: absolute;
+    width: 69.79vw;
+    top: 52vw;
+    left: 31vw;
+    transform: translateY(3vw);
+    transition: 1s;
+    transition-delay: 0.3s;
+}
+.book1-1 {
+    position: absolute;
+    width: 60.67vw;
+    top: 64.2vw;
+    left: 14.9vw;
+    transform: translateY(3vw);
+    transition: 1s;
+    transition-delay: 0.1s;
+}
+.book1-2 {
+    position: absolute;
+    width: 60.67vw;
+    top: 60.5vw;
+    left: 14.9vw;
+    transform: translateY(3vw);
+    transition: 1s;
+    transition-delay: 0.4s;
+}
+.txt1 {
+    position: absolute;
+    width: 15.67vw;
+    top: 401vw;
+    left: 67.8vw;
+    transform: translateY(5vw);
+    transition: 1s;
+    opacity: 0;
+}
+.circle1{
+    position: absolute;
+    width: 20.46vw;
+    top: 464.35vw;
+    left: 14.5vw;
+    animation: rotate 24s linear infinite;
+    transform-origin: 50% 50%;
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.funding1 {
+    position: absolute;
+    width: 39.16vw;
+    top: 525.9vw;
+    left: 10.4vw;
+    transform: translateY(5vw);
+    transition: 1s;
+    opacity: 0;
+}
+.funding2 {
+    position: absolute;
+    width: 39.16vw;
+    top: 525.9vw;
+    right: 10.4vw;
+    transform: translateY(5vw);
+    transition: 1s;
+    transition-delay: 0.2s;
+    opacity: 0;
+}
+.txt2 {
+    position: absolute;
+    width: 28.8vw;
+    top: 567.8vw;
+    left: 56.3vw;
+    transform: translateX(5vw);
+    transition: 1s;
+    opacity: 0;
+}
+.book3 {
+    position: absolute;
+    width: 39.21vw;
+    top: 703.8vw;
+    left: 52vw;
+    transform: rotate(-30deg);
+    transform-origin: left bottom;
+    transition: 3s;
+}
+.book3.on {
+    transform: rotate(-20deg);
+    transform-origin: left bottom;
+}
+.title2 {
+    position: absolute;
+    width: 19.06vw;
+    top: 893.9vw;
+    left: 69.7vw;
+    transform: translateY(2vw);
+    opacity: 0;
+    transition: 1s;
+}
+.title3 {
+    position: absolute;
+    width: 20.31vw;
+    top: 952.5vw;
+    left: 5.2vw;
+    transform: translateY(2vw);
+    opacity: 0;
+    transition: 1s;
+}
+
+.footer-back {
+    position: absolute;
+    width: 100vw;
+    top: 0vw;
+    left: 0vw;
+}
+.footer-btn:hover {
+    opacity: 0;
+}
+
+
+/* on 정의 */
+.on-default {
+    transform: none;
+    opacity: 1;
+}
