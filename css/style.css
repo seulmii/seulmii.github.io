@@ -1,0 +1,710 @@
+.header-btn1, .header-btn2, .header-btn3, .header-btn4, .header-btn5 {position: absolute; top: 1.2vw;}
+.header-logo {position: absolute; top: 50%; transform: translateY(-50%); width: 6.82vw; left: 5.209vw;}
+.header-btn1 {width: 6.45vw; left: 60.1vw;}
+.header-btn2 {width: 1.92vw; left: 68.59vw;}
+.header-btn3 {width: 5.83vw; left: 72.86vw;}
+.header-btn4 {width: 6.82vw; left: 80.78vw;}
+.header-btn5 {width: 5.209vw; left: 89.58vw;}
+
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
+  }
+.a {
+    position: fixed;
+    top:3.125vw;
+    left:0vw;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: black;
+}
+.a-wrap-video{
+    background-color: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+}
+.a-video {
+    position: relative;
+    width: 100%;
+    /* top:-14vh; */
+}
+.a-txt {
+    position: absolute;
+    width: 100vw;
+    top:0vw;
+    left: 0vw;;
+}
+.display-none {
+    display: none;
+}
+
+@keyframes aa{
+from {opacity:1; overflow:hidden; visibility: visible ;}
+to {opacity: 0; overflow: hidden; visibility: hidden;}
+}
+
+#container section {
+    position: relative;
+    height: auto;
+}
+
+#container section img {
+    width: 100%;
+}
+
+/* section1 */
+
+.sec1-back {
+    width:100%;
+    height: 100%;
+}
+
+.sec1-title1{
+    position: absolute;
+    width: 89.42vw;
+    top: 8.2vw;
+    left: 5.25vw;
+    opacity: 0;
+    animation: boo ;
+    animation-delay: 2.5s ;
+    animation-duration: 1s ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes boo {
+    0% {transform: scale(0);}
+    20% {transform: scale(1); opacity: 1;}
+    100% {transform: scale(1);opacity: 1;}
+}
+
+.sec1-drug4{
+    position: absolute;
+    width: 11.4vw;
+    top: 36vw;
+    right: 3vw;
+    transform: rotate(-120deg) translate(-10vw, -4vw) scale(0.2, 0.2);
+    transition: ease-in 0.2s;
+    opacity: 0;
+}
+
+.sec1-drug4.on {
+    opacity: 1;
+    transform: none;
+}
+
+.sec1-drug3{
+    position: absolute;
+    width: 12.86vw;
+    top: 52vw;
+    right: 12vw;
+    transform: rotate(-60deg) translate(-10vw, -4vw) scale(0.3, 0.3);
+    transition: ease-in 0.2s;
+    opacity: 0;
+    transition-delay: 0.3s;
+}
+
+.sec1-drug3.on {
+    opacity: 1;
+    transform: none;
+}
+
+.sec1-octane1{
+    position: absolute;
+    width: 94vw;
+    top: -1.2vw;
+    left: 3vw;
+    opacity: 0;
+    animation: boo ;
+    animation-delay: 2.8s ;
+    animation-duration: 1s ;
+    animation-fill-mode: forwards;
+}
+
+.sec1-drug2{
+    position: absolute;
+    width: 25.2vw;
+    top: 56vw;
+    left: 5vw;
+    transform: rotate(120deg) translate(-10vw, -4vw) scale(0.5, 0.5);
+    transition: ease-in 0.2s;
+    opacity: 0;
+}
+
+.sec1-drug2.on {
+    opacity: 1;
+    transform: none;
+}
+
+.sec1-drug1{
+    position: absolute;
+    width: 25vw;
+    top: 70.3vw;
+    left: 3vw;
+    transform: rotate(120deg) translate(-10vw, -4vw) scale(0.5, 0.5);
+    opacity: 0;
+    transition: ease-in 0.2s;   
+    transition-delay: 0.3s;
+}
+
+.sec1-drug1.on {
+    transform: none;
+    opacity: 1;
+}
+
+
+.sec1-title2-0{
+    position: absolute;
+    width: 53vw;
+    top: 50.3vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec1-title2-1{
+    position: absolute;
+    width: 53vw;
+    top: 50.3vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes blink {
+    0%, 19.999%, 22%, 52.999%, 54%, 54.999%, 70%, 100% {
+    opacity: 1;
+		
+	}
+	20%, 21.999%, 53%, 53.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
+
+.sec1-btn {
+    position: absolute;
+    width: 55.31vw;
+    top: 74vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec1-btn-0 {
+    position: absolute;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+}
+.sec1-btn-1 {
+    position: absolute;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+    display: none;
+}
+.sec1-btn:hover .sec1-btn-1 { display: block; }
+
+.sec1-txt-apex{
+    position: absolute;
+    width: 55.83vw;
+    top: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec1-arrow1 {    
+    position: absolute;
+    width: 2.45vw;
+    top: 138.8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+.sec1-arrow2{    
+    position: absolute;
+    width: 2.45vw;
+    top: 140.8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  }
+.sec1-arrow3{    
+    position: absolute;
+    width: 2.45vw;
+    top: 142.8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  }
+.sec1-arrow4{    
+    position: absolute;
+    width: 2.45vw;
+    top: 143.8vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  }
+.sec1-bh{
+    position: absolute;
+    width: 44.79vw;
+    top: 134.4vw;
+    right: -2.8vw;
+    transform: translate(10vw,10vw);
+    transition: 0.8s;
+    opacity: 0;   
+}
+.sec1-bh.on {
+    transform: none;
+    opacity: 1;
+}
+.sec1-vtg{
+    position: absolute;
+    width: 34.27vw;
+    top: 155vw;
+    left: 1.7vw;
+    transform: translate(-10vw,10vw);
+    transition: 0.8s;
+    opacity: 0;   
+}
+.sec1-vtg.on {
+    transform: none;
+    opacity: 1;
+}
+.sec1-txt-contents{    
+    position: absolute;
+    width: 38.23vw;
+    top: 148.9vw;
+    left: 50%;
+    transform: translateX(-50%);}
+.sec1-title3{
+    position: absolute;
+    width: 49vw;
+    top: 157vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec1-contents{
+    position: absolute;
+    width: 97.91vw;
+    top: 174vw;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+
+.sec2-back {
+    width: 100%;
+    height: 100%;
+}
+.wrap-sec2-video {
+    position: absolute;
+    width: 100vw;
+    height: 48.96vw;
+    top: 5.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+.sec2-video {
+    position: relative;
+    width: 100%;
+    top:-8vw;
+    left:0vw;
+}
+
+.sec2-back2 {
+    position: absolute;
+    top:0vw;
+    left:0vw;
+    width: 100vw;
+    height: 100vw;
+}
+.wrap-sec2-banner{
+    position: absolute;
+    top: 0.9vw;
+    display: flex; 
+    overflow: hidden;
+}
+.sec2-banner {
+    width: 154.166vw;
+    display: flex;
+    animation: roll 20s linear infinite;
+}
+
+.n1:last-child {
+    animation-delay: 10s;}
+
+@keyframes roll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.wrap2-sec2-banner{
+    position: absolute;
+    top: 58.75vw;
+    display: flex; 
+    overflow: hidden;
+}
+.sec2-banner {
+    width: 154.166vw;
+    display: flex;
+    animation: roll 20s linear infinite;
+}
+
+.sec2-txt {
+    position: absolute;
+    width: 89.22vw;
+    top: 49vw;
+    left: 5.4vw;
+}
+
+.sec2-color1 {
+    position: absolute;
+    width: 20vw;
+    top: 71.6vw;
+    left: 16vw;
+    animation: blink 2s 1s infinite;
+}
+.sec2-color2 {
+    position: absolute;
+    width: 20vw;
+    top: 71.6vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink 3s 0s infinite;
+}
+.sec2-color3 {
+    position: absolute;
+    width: 20vw;
+    top: 71.6vw;
+    right: 16vw;
+    animation: blink 5s 2s infinite;
+}
+
+.sec3-back {
+    width: 100%;
+    height: 100%;
+}
+.sec3-process{
+    position: absolute;
+    width: 100vw;
+    top:-1vw;
+    left:0vw;
+}
+.sec3-bullet2 {
+    position: absolute;
+    width: 10.36vw;
+    top: 5.5vw;
+    left: 18vw;
+    transform: translate(18vw, 8vw);
+    opacity: 0;
+    transition: 0.5s;
+}
+.sec3-bullet2.on {
+    transform: none;
+    opacity: 1;
+}
+.sec3-bullet1{
+    position: absolute;
+    width: 16.04vw;
+    top: 16vw;
+    left: 6vw;
+    transform: translate(20vw, -5vw);
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+.sec3-bullet1.on {
+    transform: none;
+    opacity: 1;
+}
+.sec3-paint1 {
+    position: absolute;
+    width: 37.6vw;
+    top: 97.3vw;
+    right: -7.9vw;
+    transform: scale(0,0) translate(20vw,20vw);
+    transition: 0.2s;
+}
+.sec3-paint1.on {
+    transform: none;
+}
+.sec3-octane1 {
+    position: absolute;
+    width: 63.1vw;
+    top: 115vw;
+    right: -1.8vw;
+    transform: translateX(25vw);
+    transition: 0.7s;
+}
+.sec3-octane1.on {
+    transform: none;
+}
+
+.sec3-slide1 {
+    position: absolute;
+    width: 35.15vw;
+    top: 170vw;
+    left: 5.7vw;
+    transform: scale(0.75) translate(15vw,10vw);
+    opacity: 0;
+    transition: ease-in 0.5s;
+    transform-origin: bottom right;
+}
+.sec3-slide2 {
+    position: absolute;
+    width: 35.15vw;
+    top: 170vw;
+    right: 5.7vw;
+    transform: scale(0.75) translate(-15vw,10vw);
+    opacity: 0;
+    transition: ease-in 0.5s;
+    transform-origin: bottom left;
+    transition-delay: 0.2s;
+}
+.slide-on {
+    transform: none;
+    opacity: 1;
+}
+.sec3-slide3 {
+    position: absolute;
+    width: 42.19vw;
+    top: 174.3vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .sec3-smoke1 {
+    position: absolute;
+    width: 64vw;
+    top: 203vw;
+    left: -22vw;
+    transform: scale(0.5) translate(-30vw,5vw);
+    transform-origin: bottom left;
+    opacity: 0.5;
+    transition: 4s;
+} */
+.wrap-sec3-smoke {
+    position: absolute;
+    width: 100vw;
+    height: 40vw;
+    top: 218vw;
+    left: -6vw;
+}
+.sec3-smoke {
+    position: relative;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+}
+.sec3-smoke2 {
+    position: absolute;
+    width: 54.3vw;
+    top: 221vw;
+    right: -32vw;
+    transform: scale(0.5) translate(30vw,5vw);
+    transform-origin: bottom right;
+    opacity: 0.5;
+    transition: 3s;
+    transition-delay: 1s;
+}
+.smoke-on {
+    transform: none;
+    opacity: 1;
+}
+
+.sec3-event1 {
+    position: absolute;
+    width: 66.14vw;
+    top: 221.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec3-frame1 {
+    position: absolute;
+    width: 26.16vw;
+    top: 241.8vw;
+    left: 25vw;
+}
+
+.wrap-sec3-skin {
+    position: absolute;
+    width: 25.9vw;
+    height: 45.31vw;
+    top: 241.9vw;
+    left: 25.15vw;
+}
+.sec3-skin {
+    position: relative;
+    width: 100%;
+    top: 3.1vw;
+}
+.sec3-reward1 {
+    position: absolute;
+    width: 25.8vw;
+    top: 242vw;
+    left: 25.2vw;
+}
+.sec3-level1 {
+    position: absolute;
+    width: 10.29vw;
+    top: 236.9vw;
+    left: 19.8vw;
+}
+.sec3-weapon1 {
+    position: absolute;
+    width: 46.2vw;
+    top: 276.7vw;
+    right: 4.2vw;
+    transform: translateX(30vw);
+    opacity: 0;
+    transition: 1s;
+}
+.sec3-weapon1.on {
+    transform: none;
+    opacity: 1;
+}
+
+.sec3-introframe {
+    position: absolute;
+    width: 66.2vw;
+    top: 323.97vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sec3-octane4{
+    position: absolute;
+    width: 37.76vw;
+    top: 300vw;
+    left: 0vw;
+    transform: translate(-10vw, -20vw);
+    opacity: 0;
+    transition: 0.5s;
+}
+.sec3-octane4.on {
+    transform: none;
+    opacity: 1;
+}
+
+.sec3-back2 {
+    position: absolute;
+    width: 64.2vw;
+    height: 54.27vw;
+    background-color: black;
+    top: 325vw;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1vw 1vw 0 0;
+}
+.wrap-sec3-video2 {
+    position: absolute;
+    width: 59.21vw;
+    height: 33.33vw;
+    top: 331vw;
+    left: 20vw;
+}
+.sec3-video2 {
+    position: relative;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+}
+
+.sec3-dim {
+    position: absolute;
+    width: 64vw;
+    height: 60vw;
+    top: 330vw;
+    left: 18vw;
+}
+.sec3-cont-intro {
+    position: absolute;
+    width: 64.2vw;
+    top: 325vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec3-octane2 {
+    position: absolute;
+    width: 27.1vw;
+    top: 332vw;
+    right: 18.6vw;
+    transform: translateX(20vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec3-octane2.on {
+    transform: none;
+    opacity: 1;
+}
+.sec3-trailler {
+    position: absolute;
+    width: 64.06vw;
+    top: 378.64vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec3-octane3 {
+    position: absolute;
+    width: 49.2vw;
+    top: 397.08vw;
+    left: -2.2vw;
+    transform: translateX(-50vw);
+    transition: ease-out 0.5s;
+    opacity: 0;
+}
+.sec3-mira1 {
+    position: absolute;
+    width: 38.49vw;
+    top: 408.73vw;
+    right: -3.7vw;
+    transform: translateX(40vw);
+    transition: ease-out 0.5s;
+    opacity: 0;
+}
+.sec3-octane3.on, .sec3-mira1.on{
+    transform: none;
+    opacity: 1;
+}
+
+.sec4-btn {
+    position: absolute;
+    width: 55.31vw;
+    top: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec4-btn-0 {
+    position: absolute;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+}
+.sec4-btn-1 {
+    position: absolute;
+    width: 100%;
+    top: 0vw;
+    left: 0vw;
+    display: none;
+}
+.sec4-btn:hover .sec4-btn-1 { display: block; }
+
+.footer-back {
+    position: absolute;
+    width: 100vw;
+    top: 0vw;
+    left: 0vw;
+}
+.footer-btn:hover {
+    opacity: 0;
+}
