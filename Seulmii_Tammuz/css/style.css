@@ -1,0 +1,645 @@
+#container section {
+    position: relative;
+    height: auto;
+}
+
+#container section img {
+    width: 100%;
+}
+.header-btn1, .header-btn2, .header-btn3, .header-btn4, .header-btn5 { position: absolute; top: 1.2vw;}
+.header-logo {position: absolute; top: 50%; transform: translateY(-50%); width: 6.82vw; left: 5.209vw;}
+.header-btn1 {width: 6.45vw; left: 60.1vw;}
+.header-btn2 {width: 1.92vw; left: 68.59vw;}
+.header-btn3 {width: 5.83vw; left: 72.86vw;}
+.header-btn4 {width: 6.82vw; left: 80.78vw;}
+.header-btn5 {width: 5.209vw; left: 89.58vw;}
+
+.sec1-back {
+    width:100%;
+    height: 100%;
+}
+.sec1-video1{
+    position: absolute;
+    width: 100vw;
+    top:7.65vw;
+    left:0vw;
+    opacity: 0.7;
+}
+.sec1-dimm1 {
+    position: absolute;
+    width: 100vw;
+    top:5vw;
+    left:0vw;
+}
+.sec1-txt1 {
+    position: absolute;
+    width: 28.02vw;
+    top: 3.75vw;
+    left: 5.2vw;
+}
+.sec1-txt2 {
+    position: absolute;
+    width: 14.11vw;
+    top: 3.75vw;
+    right: 5.2vw;
+}
+.sec1-frame1 {
+    position: absolute;
+    width: 89.69vw;
+    top: 26.75vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec1-title1 {
+    position: absolute;
+    width: 64.53vw;
+    top: 30vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@keyframes blink {
+    0%, 19.999%, 22%, 52.999%, 54%, 54.999%, 70%, 100% {
+    opacity: 1;
+		
+	}
+	20%, 21.999%, 53%, 53.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
+}
+.sec1-arrow1, .sec1-arrow2, .sec1-arrow3, .sec1-arrow4, .sec1-arrow5 {
+    position: absolute;
+    width: 5.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink;
+    animation-iteration-count: infinite;
+}
+.sec1-arrow1 {
+    top: 58.4vw;
+    animation-duration: 1s;
+}
+.sec1-arrow2 {
+    top: 66vw;
+    animation-duration: 2s;
+}
+.sec1-arrow3 {
+    top: 73.6vw;
+    animation-duration: 3s;
+}
+.sec1-arrow4 {
+    top: 81.2vw;
+    animation-duration: 4s;
+}
+.sec1-arrow5 {
+    top: 88.8vw;
+    animation-duration: 5s;
+}
+.sec1-content1 {
+    position: absolute;
+    width: 89.74vw;
+    top: 58.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#sec1-btn-1 {
+    position: absolute;
+    width: 24.375vw;
+    top: 67.87vw;
+    left: 17vw;
+    opacity: 1;
+    z-index: 99;
+}
+#sec1-btn-2 {
+    position: absolute;
+    width: 32.34vw;
+    top: 76.74vw;
+    left: 9.5vw;
+}
+#sec1-btn-3 {
+    position: absolute;
+    width: 25.47vw;
+    top: 85.64vw;
+    left: 16.4vw;
+}
+#sec1-btn-4 {
+    position: absolute;
+    width: 24.58vw;
+    top: 58.86vw;
+    right: 17.76vw;
+}
+#sec1-btn-5 {
+    position: absolute;
+    width: 33.125vw;
+    top: 67.87vw;
+    right: 9vw;
+}
+#sec1-btn-6 {
+    position: absolute;
+    width: 28.7vw;
+    top: 76.74vw;
+    right: 13.5vw;
+}
+#sec1-btn-7 {
+    position: absolute;
+    width: 30.99vw;
+    top: 85.64vw;
+    right: 11.03vw;
+}
+#sec1-btn-1:hover, #sec1-btn-2:hover, #sec1-btn-3:hover, #sec1-btn-4:hover, #sec1-btn-5:hover, #sec1-btn-6:hover, #sec1-btn-7:hover { opacity: 0.5; }
+
+
+.wrap-sec2-video1 {
+    position: absolute;
+    width: 32.3vw;
+    height: 44.79vw;
+    top: 62.05vw;
+    left: 5.208vw;
+    overflow: hidden;
+    background-color: black;
+}
+.sec2-video1 {
+    position: relative;
+    width: 100%;
+    top:0vw;
+    left:0vw;
+}
+.wrap-sec2-video2 {
+    position: absolute;
+    width: 32.3vw;
+    height: 44.79vw;
+    top: 62.05vw;
+    right: 5.208vw;
+    background-color: black;
+    overflow: hidden;
+}
+.sec2-video2 {
+    position: relative;
+    width: 170%;
+    top: 4vw;
+    left: -11vw;
+}
+.sec2-dimm1 {
+    position: absolute;
+    width: 32.3vw;
+    top: 62.05vw;
+    left: 5.208vw;
+}
+.sec2-txt1 {
+    position: absolute;
+    width: 80.47vw;
+    top: 98.2vw;
+    left: 6.5vw;
+}
+.sec2-light1 {
+    position: absolute;
+    width: 100vw;
+    top: 140vw;
+}
+.sec2-line1-1 {
+    position: absolute;
+    width: 2.39vw;
+    top: 124vw;
+    left: 5.208vw;
+    transform: translateX(20vw);
+    opacity: 0;
+    transition: 1s;
+}
+.sec2-line1-2 {
+    position: absolute;
+    width: 2.39vw;
+    top: 124vw;
+    right: 5.208vw;
+    transform: translateX(-20vw);
+    opacity: 0;
+    transition: 1s;
+}
+.sec2-arrow1 {
+    position: absolute;
+    width: 5.2vw;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 141.8vw;
+    animation: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.sec2-slogan1 {
+    position: absolute;
+    width: 49.32vw;
+    top: 157.4vw;
+    left: 25.34vw;
+    transform: translate(0,20vw);
+    opacity: 0;
+    transition: 1s;
+}
+
+.sec3-circle1 {
+    position: absolute;
+    top: 23.6vw;
+    left: 24.9vw;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    border-width: 0.05vw;
+    border-color: white;
+    border-style: solid;
+    animation: wavecircle1;
+    animation-duration: 2s;
+    animation-delay: 0.4s;
+    animation-iteration-count: infinite;
+}
+.sec3-circle2 {
+    position: absolute;
+    /* top: 23.6vw;
+    left: 24.9vw;
+    width: 50vw;
+    height: 50vw; */
+    top: 28.1vw;
+    left: 29.4vw;
+    width: 41vw;
+    height: 41vw;
+    border-radius: 50%;
+    border-width: 0.05vw;
+    border-color: white;
+    border-style: solid;
+    animation: wavecircle2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes wavecircle1 {
+    0% {scale: 0; opacity: 0;}
+    70% {scale: 1; opacity: 0.4;}
+    100% {scale: 1; opacity: 0;}
+}
+@keyframes wavecircle2 {
+    0% {scale: 0; opacity: 0;}
+    70% {scale: 1; opacity: 0.5;}
+    100% {scale: 1; opacity: 0;}
+}
+.sec3-logo1 {
+    position: absolute;
+    width: 26.66vw;
+    top: 35vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec3-envelope3 {
+    position: absolute;
+    width: 28.95vw;
+    top: 145.6vw;
+    left: 65.8vw;
+    transform: translateX(-8vw);
+    transition: 1s;
+}
+.sec3-paper1 {
+    position: absolute;
+    width: 26.14vw;
+    top: 153.5vw;
+    left: 23.2vw;
+    transform: translateX(5vw);
+    transition: 1s;
+}
+.sec3-paper2 {
+    position:absolute;
+    width: 33.47vw;
+    top: 152.74vw;
+    left: 50vw;
+    transform: translateX(-4vw);
+    transition: 1s;
+}
+.sec3-shadow1 {
+    position: absolute;
+    width: 41.4vw;
+    top: 161.5vw;
+    left: 0.93vw;
+    transform: translateX(10vw);
+    transition: 0.6s;
+}
+.sec3-shadow2 {
+    position: absolute;
+    width: 41.4vw;
+    top: 175vw;
+    left: 0.93vw;
+    transform: translateX(10vw);
+    transition: 0.6s;
+}
+.sec3-envelope1 {
+    position: absolute;
+    width: 28.49vw;
+    top: 163.97vw;
+    left: 5.208vw;
+    transform: translateX(10vw);
+    transition: 0.6s;
+}
+.sec3-envelope2 {
+    position: absolute;
+    width: 28.49vw;
+    top: 178.58vw;
+    left: 5.208vw;
+    transform: translateX(10vw);
+    transition: 0.6s;
+}
+
+.wrap-sec4-video1 {
+    position: absolute;
+    width: 100vw;
+    height: 79.843vw;
+    top: 0vw;
+    left: 0vw;
+}
+.sec4-video1 {
+    position: relative;
+    width: 100%;
+    top: 23.5vw;
+    left: 0vw;
+}
+.sec4-title1 {
+    position: absolute;
+    width: 14.89vw;
+    top: 6.8vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec4-product1 {
+    position: absolute;
+    width: 45.1vw;
+    top: 150vw;
+    left: 5.208vw;
+    transform: translate(-10vw,10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec4-product2 {
+    position: absolute;
+    width: 44.89vw;
+    top: 155vw;
+    left: 26vw;
+    transform: translate(-10vw,10vw);
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+.sec4-product3 {
+    position: absolute;
+    width: 25.57vw;
+    top: 172.3vw;
+    left: 69.208vw;
+    transform: translate(0,10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec4-product4 {
+    position: absolute;
+    width: 30.31vw;
+    top: 189.3vw;
+    left: 53.208vw;
+    transform: translate(0,10vw);
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+.sec4-label1 {
+    position: absolute;
+    width: 33.38vw;
+    top: 205.8vw;
+    left: 3vw;
+    transform: translate(0,10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec4-label2 {
+    position: absolute;
+    width: 35.41vw;
+    top: 213vw;
+    right: 2.6vw;
+    transform: translate(0,10vw);
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+.sec4-callout1 {
+    position: absolute;
+    width: 9.94vw;
+    top: 202.4vw;
+    left: 20.4vw;
+    transform: translate(0,10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec4-product5 {
+    position: absolute;
+    width: 42.65vw;
+    top: 225.5vw;
+    left: 5.208vw;
+}
+.sec4-product6 {
+    position: absolute;
+    width: 41.66vw;
+    top: 225.5vw;
+    left: 53.208vw;
+}
+.wrap-sec4-rolling1{
+    position: absolute;
+    top: 386.5vw;
+    display: flex; 
+    overflow: hidden;
+}
+.sec4-rolling1 {
+    width: 311.25vw;
+    display: flex;
+    animation: roll 50s linear infinite;
+}
+.n1:last-child {
+    animation-delay: 10s;}
+
+@keyframes roll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.wrap-sec4-rolling2{
+    position: absolute;
+    top: 485vw;
+    display: flex; 
+    overflow: hidden;
+}
+.sec4-rolling2 {
+    width: 472.5vw;
+    display: flex;
+    animation: roll 50s linear infinite;
+}
+.sec4-tape1 {
+    position: absolute;
+    width: 138.75vw;
+    top: 505.5vw;
+    left: -19.8vw;
+}
+
+.sec5-gkv750 {
+    position: absolute;
+    width: 126.04vw;
+    top: 0vw;
+    left: -0.5vw;
+}
+.sec5-pd1 {
+    position: absolute;
+    width: 10.104vw;
+    top: 9vw;
+    left: 21vw;
+    transform: translateX(10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec5-pd2 {
+    position: absolute;
+    width: 89.32vw;
+    top: 66vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec5-callout1 {
+    position: absolute;
+    width: 17.135vw;
+    top: 64.2vw;
+    left: 54.58vw;
+    animation: blink 2s infinite;
+}
+.sec5-dram {
+    position: absolute;
+    width: 84.375vw;
+    top: 114.2vw;
+    left: 5.208vw;
+}
+.sec5-callout2 {
+    position: absolute;
+    width: 7.86vw;
+    top: 114.3vw;
+    left: 42.3vw;
+    animation: blink 2s infinite;
+}
+.sec5-callout3 {
+    position: absolute;
+    width: 7.5vw;
+    top: 120.3vw;
+    left: 66.9vw;
+    animation: blink 1s infinite;
+}
+.sec5-callout4 {
+    position: absolute;
+    width: 9.11vw;
+    top: 133.2vw;
+    left: 61.2vw;
+    animation: blink 3s infinite;
+}
+.sec5-rgb {
+    position: absolute;
+    width: 100.31vw;
+    top: 170.8vw;
+    left: 0vw;
+}
+.sec5-pd3 {
+    position: absolute;
+    width: 51.35vw;
+    top: 244.5vw;
+    left: 24.4vw;
+    transform: translateY(10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec5-manual1 {
+    position: absolute;
+    width: 59.11vw;
+    top: 304.7vw;
+    left: 10.4vw;
+    transform: translateX(-10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec5-manual2 {
+    position: absolute;
+    width: 59.11vw;
+    top: 322.05vw;
+    left: 30.5vw;
+    transform: translateX(10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec5-manual3 {
+    position: absolute;
+    width: 59.63vw;
+    top: 303.4vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sec5-manual4 {
+    position: absolute;
+    width: 3.125vw;
+    top: 305vw;
+    right: 10.4vw;
+    animation: blink 3s infinite;
+}
+
+.sec6-icon {
+    position: absolute;
+    width: 18.33vw;
+    top: 38.6vw;
+    left: 67.9vw;
+    transform: translateY(10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec6-mobile1 {
+    position: absolute;
+    width: 36.56vw;
+    top: 446.6vw;
+    left: 9vw;
+    transform: translateX(-10vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec6-tb1 {
+    position: absolute;
+    width: 44.01vw;
+    top: 98.65vw;
+    left: 5.208vw;
+    transform: translateY(5vw);
+    transition: 1s;
+    opacity: 0;
+}
+.sec6-tb2 {
+    position: absolute;
+    width: 44.01vw;
+    top: 98.65vw;
+    right: 5.208vw;
+    transform: translateY(5vw);
+    transition: 1s;
+    opacity: 0;
+    transition-delay: 0.2s;
+}
+.sec6-txt1 {
+    position: absolute;
+    width: 27.81vw;
+    top: 659vw;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blink 1s infinite;
+}
+
+.footer-back {
+    position: absolute;
+    width: 100vw;
+    top: 0vw;
+    left: 0vw;
+}
+.footer-btn:hover {
+    opacity: 0;
+}
+
+/* on 정의 */
+.on-default {
+    transform: none;
+    opacity: 1;
+}
