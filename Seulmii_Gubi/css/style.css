@@ -90,10 +90,10 @@
 
 .wrap-sec3-video1 {
     position: absolute;
-    width: 53.38vw;
-    height: 33.34vw;
+    width: 53.6vw;
+    height: 33.6vw;
     overflow: hidden;
-    top: 122.4vw;
+    top: 88.4vw;
     left: 50%;
     transform: translate(-50%,0);
 }
@@ -108,17 +108,17 @@
 .sec3-text1 {
     position: absolute;
     width: 23.23vw;
-    top: 137.4vw;
+    top: 103.4vw;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .wrap-sec3-video2 {
     position: absolute;
-    width: 64vw;
-    height: 33.34vw;
+    width: 64.03vw;
+    height: 33.6vw;
     overflow: hidden;
-    top: 213.02vw;
+    top: 179.05vw;
     left: 50%;
     transform: translate(-50%,0);
 }
@@ -132,7 +132,7 @@
 .sec3-text2 {
     position: absolute;
     width: 31.77vw;
-    top: 220.35vw;
+    top: 186.35vw;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -152,14 +152,14 @@
 .sec3-mobile2 {
     position: absolute;
     width: 18.38vw;
-    top: 230.9vw;
+    top: 197.65vw;
     left: 1.5vw;
 }
 
 .sec3-object1 {
     position: absolute;
     width: 37.34vw;
-    top: 186.6vw;
+    top: 152.6vw;
     right: 2vw;
     transform: translateX(3vw);
     opacity: 0;
@@ -173,7 +173,7 @@
 .sec3-object2 {
     position: absolute;
     width: 21.35vw;
-    top: 337vw;
+    top: 303vw;
     left: 2.2vw;
     transform: translateX(-3vw);
     opacity: 0;
@@ -187,7 +187,7 @@
 .sec3-object3 {
     position: absolute;
     width: 23.12vw;
-    top: 365vw;
+    top: 331vw;
     right: 2vw;
     transform: translateX(3vw);
     opacity: 0;
