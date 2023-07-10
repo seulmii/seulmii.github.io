@@ -274,9 +274,9 @@
 }
 .sec6-ptt1 {
     position: relative;
-    width: 100.8%;
-    top: -0.6vw;
-    left: 50%;
+    width: 100.1%;
+    top: -0.15vw;
+    left: 49.7%;
     transform: translate(-50%,0);
 }
 .wrap-sec6-ptt2 {
@@ -292,8 +292,8 @@
 }
 .sec6-ptt2 {
     position: relative;
-    width: 101%;
-    top: 49.5%;
+    width: 100.8%;
+    top: -0.6vw;
     left: 50%;
     transform: translate(-50%,-50%);
 }
