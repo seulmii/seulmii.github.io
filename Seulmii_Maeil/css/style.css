@@ -295,7 +295,7 @@
     width: 100.8%;
     top: -0.6vw;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,0);
 }
 
 .sec7-back {
